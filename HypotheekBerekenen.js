@@ -83,8 +83,10 @@ class HypotheekBerekenen {
         if (rentePercentage !== undefined) {
             // Aannemen dat de hypotheeksom 4.5 keer het jaarinkomen is
             const hypotheekSom = this.maandelijksInkomen * 12 * 4.5;
+
             // 25% van hypotheekSom
             const studieschuldAftrek = hypotheekSom * 0.25;
+
             // Bereken de 25% van de hypotheeksom af
             const hypotheekNaStudieschuld = hypotheekSom - studieschuldAftrek;
 
