@@ -32,6 +32,10 @@ class HypotheekBerekenen {
             // Totaal terug te betalen bedrag
             const totaalTerugTeBetalen = maandelijkseBetaling * aantalTermijnen;
 
+            console.log('hypotheek som', hypotheekSom);
+            console.log('maandelijkse betaling', maandelijkseBetaling);
+            console.log('totaal terug te betalen', totaalTerugTeBetalen);
+
             return {
                 maandelijkseBetaling: maandelijkseBetaling.toFixed(2),
                 totaalTerugTeBetalen: totaalTerugTeBetalen.toFixed(2)
@@ -60,6 +64,10 @@ class HypotheekBerekenen {
 
             // Totaal terug te betalen bedrag
             const totaalTerugTeBetalen = maandelijkseBetaling * aantalTermijnen;
+
+            console.log('hypotheek som', hypotheekSom);
+            console.log('maandelijkse betaling', maandelijkseBetaling);
+            console.log('totaal terug te betalen', totaalTerugTeBetalen);
 
             return {
                 maandelijkseBetaling: maandelijkseBetaling.toFixed(2),
@@ -92,6 +100,10 @@ class HypotheekBerekenen {
             // Totaal terug te betalen bedrag
             const totaalTerugTeBetalen = maandelijkseBetaling * aantalTermijnen;
 
+            console.log('hypotheek som', hypotheekSom);
+            console.log('maandelijkse betaling', maandelijkseBetaling);
+            console.log('totaal terug te betalen', totaalTerugTeBetalen);
+
             return {
                 maandelijkseBetaling: maandelijkseBetaling.toFixed(2),
                 totaalTerugTeBetalen: totaalTerugTeBetalen.toFixed(2)
@@ -123,6 +135,10 @@ class HypotheekBerekenen {
 
                 // Totaal terug te betalen bedrag
                 const totaalTerugTeBetalen = maandelijkseBetaling * aantalTermijnen;
+
+                console.log('hypotheek som', hypotheekSom);
+                console.log('maandelijkse betaling', maandelijkseBetaling);
+                console.log('totaal terug te betalen', totaalTerugTeBetalen);
 
                 return {
                     maandelijkseBetaling: maandelijkseBetaling.toFixed(2),
