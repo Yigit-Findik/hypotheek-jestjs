@@ -28,7 +28,7 @@ describe('HypotheekBerekenen', () => {
         });
 
         test('Gooit een fout als verboden postcode wordt gebruikt', () => {
-            const hypotheekCalculator = new HypotheekBerekenen(2000, 5, 9679);
+            const hypotheekCalculator = new HypotheekBerekenen(2000, 5, 1000, 9679);
 
             expect(() => hypotheekCalculator.berekenHypotheekPostcodeCheck()).toThrowError('Postcode niet toegestaan.');
         });
